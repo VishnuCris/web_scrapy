@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel= "stylesheet" href= "{{ url_for('static',filename='css/index.css') }}" />
+</head>
+<body>
+  <h3>Web Scrapping</h3>
+
+  <div>
+    <form>
+      <label for="fname">URL</label>
+      <input type="text" id="fname" name="firstname" placeholder="URL..">
+
+      <label for="country">Element</label>
+      <select id="country" name="country">
+        <option value="p">P</option>
+        <option value="div">DIV</option>
+        <option value="head">HEAD</option>
+      </select>
+    
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>
