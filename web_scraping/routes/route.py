@@ -8,7 +8,7 @@ def scraping_using_selinium():
 	return render_template('index.html')
 
 
-@web_scrap.get('/scrap_paragraph')
+@web_scrap.get('/scrap_product_details')
 def paragraph_scrap():
 	try:
 		base_view_instance = BaseView()
